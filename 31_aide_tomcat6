@@ -1,0 +1,4 @@
+!/var/lib/tomcat6/hadoop.log\..+
+
+# Tomcat log files have date extensions. Just ignore them.
+!/var/log/tomcat6/

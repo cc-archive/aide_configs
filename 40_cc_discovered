@@ -1,0 +1,10 @@
+#
+# Configs specific to discovered.labs.creativecommons.org
+#
+
+# Ignore all of AgShare
+!/var/www/search.agshare.org
+!/tmp/hadoop-agshare
+
+# Ignore all of DiscoverEd
+!/var/www/discovered\.
