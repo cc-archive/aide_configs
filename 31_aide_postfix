@@ -1,0 +1,5 @@
+# Ignore Postfix's spool area, since files come, go and change in there all the
+# time.
+!/var/spool/postfix/
+
+/var/lib/postfix/ VarDir

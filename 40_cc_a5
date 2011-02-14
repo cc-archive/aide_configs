@@ -1,0 +1,20 @@
+#
+# Configs specific to a5.creativecommons.org
+#
+
+# Ignore certain cc.engine things
+!/var/www/creativecommons\.org/cc\.engine_sanity/cache
+!/var/www/creativecommons\.org/cc\.engine_sanity/eggs
+!/var/www/creativecommons\.org/cc\.engine_sanity/cc\.engine/\.git
+
+# Ignore nkinkade's tmp dir
+!/home/nkinkade/tmp
+
+# MTA and Scholar's stuff
+/var/www/mta.sciencecommons.org/mta/mta\.log$ VarFile
+/var/www/mta.sciencecommons.org/mta/metadata\.log$ VarFile
+/var/www/mta.sciencecommons.org/mta/access\.log$ VarFile
+/var/www/scholars.sciencecommons.org/scholars$ VarDir
+/var/www/scholars.sciencecommons.org/scholars/scholars\.log$ VarFile
+/var/www/scholars.sciencecommons.org/scholars/agreements\.db$ VarFile
+

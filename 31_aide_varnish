@@ -1,0 +1,4 @@
+!/var/log/varnish/.*\.log.*$
+!/var/lib/varnish/a5\.creativecommons\.org/.*$
+/var/run/varnish\.pid$ VarFile
+/var/run/varnishlog/varnishlog\.pid$ VarFile

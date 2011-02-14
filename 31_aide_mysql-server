@@ -1,1 +1,11 @@
-../aide.conf.d/31_aide_mysql-server
+/var/lib/mysql$ VarDir
+/var/lib/mysql/(ibdata1|ib_logfile0)$ VarFile
+/var/log/mysql$ VarDir
+/var/log/mysql/mysql-bin\.index$ VarFile
+!/var/log/mysql/mysql-bin\.[0-9]{3}$
+!/var/log/mysql/mysql-bin\.[0-9]{6}$
+/var/run/mysqld$ VarDir
+/var/run/mysqld/mysqld\.(sock|pid)$ VarFile
+
+# Also catch MYI and MYD files
+/var/lib/mysql/.*/.*\.(MYI|MYD)$ VarFile

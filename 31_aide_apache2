@@ -1,1 +1,12 @@
-../aide.conf.d/31_aide_apache2
+@@define APACHE2_LOGS (access|error|suexec)
+
+!/var/log/apache2/@@{APACHE2_LOGS}\.log
+!/var/log/apache2/.*/@@{APACHE2_LOGS}\.log
+!/var/lib/apache2/fcgid/sock/[0-9]{5}\.[0-9]{3}$
+!/var/log/apache2/other_vhosts_access.log
+!/var/log/apache2/other_vhosts_error.log
+
+/var/run/apache2\.pid$ VarFile
+/var/run/apache2/ssl_scache$ VarFile
+/var/(log|run)/apache2$ VarDir
+
