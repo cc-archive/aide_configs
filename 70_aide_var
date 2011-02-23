@@ -1,1 +1,4 @@
-../aide.conf.d/70_aide_var
+/var/(backups|lock|log|run|tmp)$ VarDir
+
+/var/log/syslog$ VarDir
+/var/log/debug$ VarDir

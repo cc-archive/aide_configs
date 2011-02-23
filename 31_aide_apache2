@@ -6,7 +6,9 @@
 !/var/log/apache2/other_vhosts_access.log
 !/var/log/apache2/other_vhosts_error.log
 
+/var/lib/apache2/fcgid/fcgid$ VarDir
 /var/run/apache2\.pid$ VarFile
 /var/run/apache2/ssl_scache$ VarFile
 /var/(log|run)/apache2$ VarDir
+/var/log/apache2/.* VarDir
 
