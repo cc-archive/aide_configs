@@ -1,0 +1,9 @@
+#
+# Configs specific to a5.creativecommons.org
+#
+
+# Ignore nkinkade's tmp dir
+!/home/nkinkade/tmp
+
+# Don't care about the CC Planet cache
+!/var/www/planet.creativecommons.org/cache
