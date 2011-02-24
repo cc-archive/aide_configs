@@ -1,0 +1,13 @@
+#
+# Configs specific to a9.creativecommons.org
+#
+
+# Ignore backup web roots.
+!/var/www/creativecommons\.net/civicrm\.
+!/var/www/creativecommons\.net/www\.
+!/var/www/staging\.creativecommons\.net/civicrm\.
+!/var/www/staging\.creativecommons\.net/www\.
+
+# Ignore nkinkade's tmp dir
+!/home/nkinkade/tmp
+
