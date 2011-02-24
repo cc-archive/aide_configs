@@ -5,5 +5,8 @@
 # Ignore nkinkade's tmp dir
 !/home/nkinkade/tmp
 
-# Don't care about the CC Planet cache
-!/var/www/planet.creativecommons.org/cache
+# Handle CC Planet files
+!/var/www/planet\.creativecommons\.org/cache
+/var/www/planet\.creativecommons\.org/www/(atom|opml|rss10|rss20)\.xml VarFile
+/var/www/planet\.creativecommons\.org/www/index\.xml VarFile
+/var/www/planet\.creativecommons\.org/www/.*/.*\.(xml|php) VarFile
