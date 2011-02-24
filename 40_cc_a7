@@ -16,6 +16,7 @@
 # Misc.
 !/var/www/labs.creativecommons.org/metrics/csv-dumps
 
-# Ignore nkinkade's tmp dir
+# Ignore some user home dir stuff
 !/home/nkinkade/tmp
+!/home/john/cruft
 
