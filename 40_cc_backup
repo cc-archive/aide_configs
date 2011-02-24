@@ -1,0 +1,10 @@
+#
+# Configs specific to backup.creativecommons.org
+#
+
+# Ignore all backups and stuff on that array.
+!/media/storage
+
+# Ignore some user home dir stuff
+!/home/nkinkade/tmp
+
