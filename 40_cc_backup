@@ -7,4 +7,6 @@
 
 # Ignore some user home dir stuff
 !/home/nkinkade/tmp
+!/home/cronuser/csv-dumps/
+!/home/cronuser/stats/
 
