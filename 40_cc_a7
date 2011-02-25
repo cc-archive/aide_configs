@@ -9,6 +9,7 @@
 !/var/www/code\.creativecommons\.org/git
 !/var/www/labs\.creativecommons\.org/www/demos/search/\.git
 !/var/www/labs\.creativecommons\.org/www/demos/search/locale/\.git
+!/var/www/staging\.creativecommons\.org/i18n_hook_checkout/\.git
 
 # cc.engine stuff changes constantly, so just ignore it all
 !/var/www/staging\.creativecommons\.org/cc\.engine_stage
@@ -21,10 +22,15 @@
 !/var/www/rdfa\.info/www\.
 !/var/www/rdfa\.info/mediawiki\.
 
-# Misc.
-!/var/www/labs.creativecommons.org/metrics/csv-dumps
-
 # Ignore some user home dir stuff
 !/home/nkinkade/tmp
 !/home/john/cruft
+!/home/legal/Maildir
 
+# Misc.
+!/var/www/labs\.creativecommons\.org/metrics/csv-dumps
+!/var/www/code\.creativecommons\.org/www/basket
+!/var/www/code\.creativecommons\.org/issues/db/files
+!/var/lib/hudson/plugins/
+!/tmp/cc_wiki/openidconsumer
+!/tmp/rdfa_wiki/openidconsumer
