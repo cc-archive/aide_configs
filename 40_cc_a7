@@ -3,15 +3,23 @@
 #
 
 # Ignore lots of git stuff
-!/home/cronuser/transifex.net_i18n_checkout/.git
-!/home/cronuser/transifex.net_i18n_ccsearch_checkout/.git
+!/home/cronuser/transifex\.net_i18n_checkout/\.git
+!/home/cronuser/transifex\.net_i18n_ccsearch_checkout/\.git
 !/home/sheeshcron/gitted
-!/var/www/code.creativecommons.org/git
-!/var/www/labs.creativecommons.org/www/demos/search/.git
-!/var/www/labs.creativecommons.org/www/demos/search/locale/.git
+!/var/www/code\.creativecommons\.org/git
+!/var/www/labs\.creativecommons\.org/www/demos/search/\.git
+!/var/www/labs\.creativecommons\.org/www/demos/search/locale/\.git
 
 # cc.engine stuff changes constantly, so just ignore it all
-!/var/www/staging.creativecommons.org/cc.engine_stage
+!/var/www/staging\.creativecommons\.org/cc\.engine_stage
+
+# Ignore backup web roots
+!/var/www/staging\.creativecommons\.org/www\.
+!/var/www/wiki\.creativecommons\.org/www\.
+!/var/www/teamspace\.creativecommons\.org/www\.
+!/var/www/labs\.creativecommons\.org/www\.
+!/var/www/rdfa\.info/www\.
+!/var/www/rdfa\.info/mediawiki\.
 
 # Misc.
 !/var/www/labs.creativecommons.org/metrics/csv-dumps
