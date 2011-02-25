@@ -3,20 +3,34 @@
 #
 
 # Ignore lots of git stuff
-!/home/cronuser/transifex.net_i18n_checkout/.git
-!/home/cronuser/transifex.net_i18n_ccsearch_checkout/.git
+!/home/cronuser/transifex\.net_i18n_checkout/\.git
+!/home/cronuser/transifex\.net_i18n_ccsearch_checkout/\.git
 !/home/sheeshcron/gitted
-!/var/www/code.creativecommons.org/git
-!/var/www/labs.creativecommons.org/www/demos/search/.git
-!/var/www/labs.creativecommons.org/www/demos/search/locale/.git
+!/var/www/code\.creativecommons\.org/git
+!/var/www/labs\.creativecommons\.org/www/demos/search/\.git
+!/var/www/labs\.creativecommons\.org/www/demos/search/locale/\.git
+!/var/www/staging\.creativecommons\.org/i18n_hook_checkout/\.git
 
 # cc.engine stuff changes constantly, so just ignore it all
-!/var/www/staging.creativecommons.org/cc.engine_stage
+!/var/www/staging\.creativecommons\.org/cc\.engine_stage
 
-# Misc.
-!/var/www/labs.creativecommons.org/metrics/csv-dumps
+# Ignore backup web roots
+!/var/www/staging\.creativecommons\.org/www\.
+!/var/www/wiki\.creativecommons\.org/www\.
+!/var/www/teamspace\.creativecommons\.org/www\.
+!/var/www/labs\.creativecommons\.org/www\.
+!/var/www/rdfa\.info/www\.
+!/var/www/rdfa\.info/mediawiki\.
 
 # Ignore some user home dir stuff
 !/home/nkinkade/tmp
 !/home/john/cruft
+!/home/legal/Maildir
 
+# Misc.
+!/var/www/labs\.creativecommons\.org/metrics/csv-dumps
+!/var/www/code\.creativecommons\.org/www/basket
+!/var/www/code\.creativecommons\.org/issues/db/files
+!/var/lib/hudson/plugins/
+!/tmp/cc_wiki/openidconsumer
+!/tmp/rdfa_wiki/openidconsumer

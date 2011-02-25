@@ -1,11 +1,12 @@
-@@define APACHE2_LOGS (access|error|suexec)
+@@define APACHE2_LOGS (access|error|suexec|ssl-access)
 
 !/var/log/apache2/@@{APACHE2_LOGS}\.log
 !/var/log/apache2/.*/@@{APACHE2_LOGS}\.log
-!/var/lib/apache2/fcgid/sock/[0-9]{5}\.[0-9]{3}$
+!/var/lib/apache2/fcgid/sock/[0-9]+\.[0-9]+$
 !/var/log/apache2/other_vhosts_access.log
 !/var/log/apache2/other_vhosts_error.log
 
+/var/lib/apache2/fcgid/shm$ VarFile
 /var/lib/apache2/fcgid/fcgid$ VarDir
 /var/run/apache2\.pid$ VarFile
 /var/run/apache2/ssl_scache$ VarFile

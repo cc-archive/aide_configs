@@ -1,1 +1,4 @@
+!/root/\.bash_history VarFile
 !/home/.*/\.bash_history VarFile
+
+/home/.*$ VarDir

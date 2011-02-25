@@ -11,3 +11,12 @@
 # Ignore nkinkade's tmp dir
 !/home/nkinkade/tmp
 
+# Ignore various git checkouts
+!/var/www/creativecommons\.net/www/sites/default/modules/civicrm/\.git
+!/var/www/staging\.creativecommons\.net/www/sites/default/modules/civicrm/\.git
+!/var/www/creativecommons\.net/www/\.git
+!/var/www/staging\.creativecommons\.net/www/\.git
+
+# Misc.
+!/var/www/creativecommons\.net/www/sites/default/files/imagecache/depiction/pictures/
+!/var/www/creativecommons.net/www/sites/default/modules/civicrm/files/civicrm/templates_c/
