@@ -1,4 +1,4 @@
-@@define APACHE2_LOGS (access|error|suexec)
+@@define APACHE2_LOGS (access|error|suexec|ssl-access)
 
 !/var/log/apache2/@@{APACHE2_LOGS}\.log
 !/var/log/apache2/.*/@@{APACHE2_LOGS}\.log
