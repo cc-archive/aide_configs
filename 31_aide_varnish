@@ -1,5 +1,6 @@
 !/var/log/varnish/.*\.log.*$
 !/var/lib/varnish/.*/.*$
 /var/log/varnish$ VarDir
+/var/log/varnish/.*$ VarDir
 /var/run/varnishd\.pid$ VarFile
 /var/run/varnishlog/varnishlog\.pid$ VarFile

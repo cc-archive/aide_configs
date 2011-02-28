@@ -2,3 +2,7 @@
 
 /var/log/syslog$ VarDir
 /var/log/debug$ VarDir
+
+# Be more aggressive about reducing chatter from /var/log
+/var/log/.* VarFile
+/var/log/.*/.* VarFile
