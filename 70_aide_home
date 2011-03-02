@@ -1,4 +1,9 @@
 !/root/\.bash_history VarFile
 !/home/.*/\.bash_history VarFile
 
+# We don't care about content in existing users' home dirs
+!/home/.*/
+
 /home/.*$ VarDir
+
+
