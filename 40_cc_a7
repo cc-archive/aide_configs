@@ -33,10 +33,13 @@
 # Don't worry about metrics data
 !/var/www/labs\.creativecommons\.org/metrics
 
+# Ignore some things in /tmp
+!/tmp/cc_wiki
+!/tmp/rdfa_wiki
+!/tmp/.*\.varnish
+
 # Misc.
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files
 !/var/lib/hudson/plugins/
-!/tmp/cc_wiki
-!/tmp/rdfa_wiki
 !/var/lib/hudson/jobs/
