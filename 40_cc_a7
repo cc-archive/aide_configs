@@ -11,6 +11,9 @@
 !/var/www/labs\.creativecommons\.org/www/demos/search/locale/\.git
 !/var/www/staging\.creativecommons\.org/i18n_hook_checkout/\.git
 
+# Ignore svnroot
+!/var/www/code\.creativecommons\.org/svnroot
+
 # cc.engine stuff changes constantly, so just ignore it all
 !/var/www/staging\.creativecommons\.org/cc\.engine_stage
 
@@ -27,10 +30,16 @@
 !/home/john/cruft
 !/home/legal/Maildir
 
+# Don't worry about metrics data
+!/var/www/labs\.creativecommons\.org/metrics
+
+# Ignore some things in /tmp
+!/tmp/cc_wiki
+!/tmp/rdfa_wiki
+!/tmp/.*\.varnish
+
 # Misc.
-!/var/www/labs\.creativecommons\.org/metrics/csv-dumps
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files
 !/var/lib/hudson/plugins/
-!/tmp/cc_wiki/openidconsumer
-!/tmp/rdfa_wiki/openidconsumer
+!/var/lib/hudson/jobs/
