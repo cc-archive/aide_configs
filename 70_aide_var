@@ -5,6 +5,8 @@
 
 /var/backups/.*\.bak$ VarFile
 
+!/var/lib/php5/sess
+
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release VarFile
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release.gpg VarFile
 
