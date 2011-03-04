@@ -6,6 +6,8 @@
 !/var/log/apache2/other_vhosts_access.log
 !/var/log/apache2/other_vhosts_error.log
 
+!/var/run/apache2/wsgi\.
+
 /var/lib/apache2/fcgid/shm$ VarFile
 /var/lib/apache2/fcgid/fcgid$ VarDir
 /var/run/apache2\.pid$ VarFile

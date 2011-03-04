@@ -39,6 +39,7 @@
 !/tmp/.*\.varnish
 
 # Misc.
+!/var/www/staging\.creativecommons\.org/i18n_hook_checkout
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files
 !/var/lib/hudson/plugins/
