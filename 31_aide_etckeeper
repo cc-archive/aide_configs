@@ -1,2 +1,3 @@
 !/etc/.git
+/var/cache/etckeeper$ VarDir
 /etc/.etckeeper$ VarFile
