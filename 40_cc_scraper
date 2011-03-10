@@ -1,0 +1,2 @@
+# Ignore rotated metadata scraper logs
+!/var/log/deedscraper/(access|metadata)\.log-[0-9]+$
