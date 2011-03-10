@@ -1,1 +1,3 @@
-../aide.conf.d/31_aide_sudo
+/var/run/sudo/[a-z0-9]+$ VarDir
+
+/var/lib/sudo/.*/[a-z0-9]+$ VarFile
