@@ -16,9 +16,13 @@
 !/var/www/staging\.creativecommons\.net/www/sites/default/modules/civicrm/\.git
 !/var/www/creativecommons\.net/www/\.git
 !/var/www/staging\.creativecommons\.net/www/\.git
+!/var/www/creativecommons\.net/www/sites/default/themes/cc/\.git
+!/var/www/staging\.creativecommons\.net/www/sites/default/themes/cc/\.git
 
 # Misc.
 !/var/www/creativecommons\.net/www/sites/default/files/imagecache/depiction/pictures/
 !/var/www/staging\.creativecommons\.net/www/sites/default/files/imagecache/depiction/pictures/
 !/var/www/creativecommons.net/www/sites/default/modules/civicrm/files/
+!/var/www/creativecommons.net/www/sites/default/files/
 !/var/www/staging\.creativecommons.net/www/sites/default/modules/civicrm/files/
+!/var/www/staging\.creativecommons.net/www/sites/default/files/
