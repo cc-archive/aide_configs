@@ -5,6 +5,9 @@
 # cc.engine changes so much, just ignore the whole thing
 !/var/www/creativecommons\.org/cc\.engine_sanity
 
+# Ignore git directories
+!/var/www/creativecommons\.org/www/license\.rdf/\.git
+
 # Ignore nkinkade's tmp dir
 !/home/nkinkade/tmp
 
@@ -19,4 +22,7 @@
 # Ignore backups of CC.org and SC.org
 !/var/www/creativecommons.org/www\.
 !/var/www/sciencecommons.org/www\.
+
+# Misc.
+!/var/www/creativecommons.org/www/images
 
