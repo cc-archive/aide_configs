@@ -12,17 +12,18 @@
 !/home/nkinkade/tmp
 
 # MTA and Scholar's stuff
-/var/www/mta.sciencecommons.org/mta/mta\.log$ VarFile
-/var/www/mta.sciencecommons.org/mta/metadata\.log$ VarFile
-/var/www/mta.sciencecommons.org/mta/access\.log$ VarFile
-/var/www/scholars.sciencecommons.org/scholars$ VarDir
-/var/www/scholars.sciencecommons.org/scholars/scholars\.log$ VarFile
-/var/www/scholars.sciencecommons.org/scholars/agreements\.db$ VarFile
+/var/www/mta\.sciencecommons\.org/mta/mta\.log$ VarFile
+/var/www/mta\.sciencecommons\.org/mta/metadata\.log$ VarFile
+/var/www/mta\.sciencecommons\.org/mta/access\.log$ VarFile
+/var/www/scholars\.sciencecommons\.org/scholars$ VarDir
+/var/www/scholars\.sciencecommons\.org/scholars/scholars\.log$ VarFile
+/var/www/scholars\.sciencecommons\.org/scholars/agreements\.db$ VarFile
 
 # Ignore backups of CC.org and SC.org
-!/var/www/creativecommons.org/www\.
-!/var/www/sciencecommons.org/www\.
+!/var/www/creativecommons\.org/www\.
+!/var/www/sciencecommons\.org/www\.
 
 # Misc.
-!/var/www/creativecommons.org/www/images
+!/var/www/creativecommons\.org/www/images
+!/var/www/creativecommons\.org/www/wp-content/uploads
 
