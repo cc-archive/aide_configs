@@ -10,8 +10,11 @@
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release VarFile
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release.gpg VarFile
 
+/var/cache/apt-xapian-index/index.1 VarDir
+/var/cache/apt-xapian-index/index.1/.* VarFile
+
 # Be more aggressive about reducing chatter from /var/log
 !/var/log/.*\.gz
 !/var/log/.*/.*\.gz
-/var/log/.* VarFile
-/var/log/.*/.* VarFile
+/var/log/.*\.(log|info|warn|1)$ VarFile
+/var/log/.*/.*\.(log|info|warn|1)$ VarFile
