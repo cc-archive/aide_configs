@@ -1,0 +1,20 @@
+#
+# Configs specific to a7.creativecommons.org
+#
+
+# Ignore git stuff
+!/var/www/code\.creativecommons\.org/git
+
+# Ignore svnroot
+!/var/www/code\.creativecommons\.org/svnroot
+
+# Ignore some user home dir stuff
+!/home/nkinkade/tmp
+
+
+# Misc.
+!/tmp/.*\.varnish
+!/var/www/code\.creativecommons\.org/www/basket
+!/var/www/code\.creativecommons\.org/issues/db/files
+!/var/lib/jenkins/plugins/
+!/var/lib/jenkins/jobs/
