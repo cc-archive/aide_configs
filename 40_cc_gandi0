@@ -11,10 +11,12 @@
 # Ignore some user home dir stuff
 !/home/nkinkade/tmp
 
+# Ignore some things in /tmp
+!/tmp/cc_wiki
+!/tmp/rdfa_wiki
+!/tmp/.*\.varnish
 
 # Misc.
-!/tmp/.*\.varnish
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files
-!/var/lib/jenkins/plugins/
-!/var/lib/jenkins/jobs/
+!/var/lib/jenkins
