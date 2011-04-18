@@ -10,3 +10,5 @@
 !/home/cronuser/csv-dumps/
 !/home/cronuser/stats/
 
+!/var/cache/man/.*/cat[13578]$
+
