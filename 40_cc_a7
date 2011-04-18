@@ -10,6 +10,7 @@
 !/var/www/labs\.creativecommons\.org/www/demos/search/\.git
 !/var/www/labs\.creativecommons\.org/www/demos/search/locale/\.git
 !/var/www/staging\.creativecommons\.org/i18n_hook_checkout/\.git
+!/var/www/staging\.creativecommons\.org/www/license\.rdf/\.git
 
 # Ignore svnroot
 !/var/www/code\.creativecommons\.org/svnroot
@@ -39,8 +40,8 @@
 !/tmp/.*\.varnish
 
 # Misc.
-!/var/www/teamspace\.creatievcommons\.org/www/images
-!/var/www/wiki\.creatievcommons\.org/www/images
+!/var/www/teamspace\.creativecommons\.org/www/images
+!/var/www/wiki\.creativecommons\.org/www/images
 !/var/www/wiki-staging\.creatievcommons\.org/www/images
 !/var/www/staging\.creativecommons\.org/i18n_hook_checkout
 !/var/www/code\.creativecommons\.org/www/basket

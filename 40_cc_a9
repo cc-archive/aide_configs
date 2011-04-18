@@ -20,6 +20,8 @@
 !/var/www/staging\.creativecommons\.net/www/sites/default/themes/cc/\.git
 
 # Ignore accounting QuickBooks backups
+/var/backups/accounting VarDir
+!/var/backups/accounting/Creative\ Commons\ Corporation\.QBW$
 !/var/backups/accounting/Creative\ Commons\ Corporation\.QBW-[0-9]+$
 
 
