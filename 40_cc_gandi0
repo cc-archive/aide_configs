@@ -15,6 +15,7 @@
 !/tmp/cc_wiki
 !/tmp/rdfa_wiki
 !/tmp/.*\.varnish
+!/tmp/tmp
 
 # Misc.
 !/var/www/code\.creativecommons\.org/www/basket
