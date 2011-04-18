@@ -13,8 +13,76 @@
 /var/cache/apt-xapian-index/index.1 VarDir
 /var/cache/apt-xapian-index/index.1/.* VarFile
 
-# Be more aggressive about reducing chatter from /var/log
-!/var/log/.*\.gz
-!/var/log/.*/.*\.gz
-/var/log/.*\.(log|info|warn|1)$ VarFile
-/var/log/.*/.*\.(log|info|warn|1)$ VarFile
+# Ignore all known files and dirs in /var/log
+!/var/log/aide
+!/var/log/alternatives\.log
+!/var/log/alternatives\.log\.[0-9]
+!/var/log/alternatives\.log\.[0-9]\.gz
+!/var/log/apache2
+!/var/log/apt
+!/var/log/aptitude
+!/var/log/aptitude\.[0-9]\.gz
+!/var/log/asterisk
+!/var/log/auth\.log
+!/var/log/auth\.log\.[0-9]
+!/var/log/auth\.log\.[0-9]\.gz
+!/var/log/boot
+!/var/log/bootstrap\.log
+!/var/log/btmp
+!/var/log/btmp\.[0-9]
+!/var/log/cacti
+!/var/log/daemon\.log
+!/var/log/daemon\.log\.[0-9]
+!/var/log/daemon\.log\.[0-9]\.gz
+!/var/log/dbconfig-common
+!/var/log/debug
+!/var/log/debug\.[0-9]
+!/var/log/debug\.[0-9]\.gz
+!/var/log/dmesg
+!/var/log/dmesg\.[0-9]
+!/var/log/dmesg\.[0-9]\.gz
+!/var/log/dpkg\.log
+!/var/log/dpkg\.log\.[0-9]
+!/var/log/dpkg\.log\.[0-9]+\.gz
+!/var/log/fail2ban\.log
+!/var/log/fail2ban\.log\.[0-9]
+!/var/log/fail2ban\.log\.[0-9]\.gz
+!/var/log/faillog
+!/var/log/fontconfig\.log
+!/var/log/fsck
+!/var/log/iptraf
+!/var/log/kern\.log
+!/var/log/kern\.log\.[0-9]
+!/var/log/kern\.log\.[0-9]\.gz
+!/var/log/lastlog
+!/var/log/lpr\.log
+!/var/log/mail\.err
+!/var/log/mail\.info
+!/var/log/mail\.info\.[0-9]
+!/var/log/mail\.info\.[0-9]\.gz
+!/var/log/mail\.log
+!/var/log/mail\.log\.[0-9]
+!/var/log/mail\.log\.[0-9]\.gz
+!/var/log/mail\.warn
+!/var/log/mail\.warn\.[0-9]
+!/var/log/mail\.warn\.[0-9]\.gz
+!/var/log/messages
+!/var/log/messages\.[0-9]
+!/var/log/messages\.[0-9]\.gz
+!/var/log/mysql
+!/var/log/mysql\.err
+!/var/log/mysql\.log
+!/var/log/mysql\.log\.[0-9]\.gz
+!/var/log/nagios3
+!/var/log/news
+!/var/log/pycentral\.log
+!/var/log/samba
+!/var/log/syslog
+!/var/log/syslog\.[0-9]
+!/var/log/syslog\.[0-9]\.gz
+!/var/log/user\.log
+!/var/log/user\.log\.[0-9]
+!/var/log/user\.log\.[0-9]\.gz
+!/var/log/uucp\.log
+!/var/log/wtmp
+!/var/log/wtmp\.[0-9]
