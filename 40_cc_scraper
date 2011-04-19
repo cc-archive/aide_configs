@@ -1,2 +1,8 @@
 # Ignore rotated metadata scraper logs
+!/var/log/deedscraper$
+!/var/log/deedscraper/(access|metadata)\.log$
 !/var/log/deedscraper/(access|metadata)\.log-[0-9]+$
+
+# Misc.
+!/var/log/nginx$
+!/var/log/nginx/(access|error)\.log\.[0-9]+\.gz$

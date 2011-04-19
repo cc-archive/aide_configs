@@ -10,3 +10,10 @@
 /var/www/planet\.creativecommons\.org/www/(atom|opml|rss10|rss20)\.xml VarFile
 /var/www/planet\.creativecommons\.org/www/index\.xml VarFile
 /var/www/planet\.creativecommons\.org/www/.*/.*\.(xml|php) VarFile
+
+# Ignore website log files
+!/var/log/apache2/api\.creativecommons\.org/ssl-error\.log-[0-9]+\.gz$
+!/var/log/apache2/planet.creativecommons.org/(access|error)\.log$
+!/var/log/apache2/planet.creativecommons.org/(access|error)\.log-[0-9]+\.gz$
+!/var/log/apache2/search.creativecommons.org/(access|error)\.log$
+!/var/log/apache2/search.creativecommons.org/(access|error)\.log-[0-9]+\.gz$
