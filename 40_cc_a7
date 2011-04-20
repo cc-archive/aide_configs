@@ -42,7 +42,8 @@
 # Misc.
 !/var/www/teamspace\.creativecommons\.org/www/images
 !/var/www/wiki\.creativecommons\.org/www/images
-!/var/www/wiki-staging\.creatievcommons\.org/www/images
+!/var/www/wiki-staging\.creativecommons\.org/www/images
+!/var/www/monitor\.creativecommons\.org/www/images
 !/var/www/staging\.creativecommons\.org/i18n_hook_checkout
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files

@@ -4,13 +4,16 @@
 
 !/var/lib/php5/sess
 
-/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release VarFile
-/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lenny_Release.gpg VarFile
+/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release VarFile
+/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release.gpg VarFile
 
 /var/cache/man/.*/cat[13578]$ VarFile
 
 /var/cache/apt-xapian-index/index.1 VarDir
 /var/cache/apt-xapian-index/index.1/.* VarFile
+
+/var/lib/texmf VarDir
+/var/lib/texmf/ls-R VarFile
 
 # Ignore all known files and dirs in /var/log
 !/var/log/acpid[.-][0-9]+\.gz$

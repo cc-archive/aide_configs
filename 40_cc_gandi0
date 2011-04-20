@@ -20,5 +20,6 @@
 # Misc.
 !/var/www/code\.creativecommons\.org/www/basket
 !/var/www/code\.creativecommons\.org/issues/db/files
+!/var/www/code\.creativecommons\.org/issues/db/text-index
 !/var/lib/jenkins
 !/var/run/jenkins
