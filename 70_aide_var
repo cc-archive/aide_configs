@@ -4,16 +4,24 @@
 
 !/var/lib/php5/sess
 
+# Some apt stuff that the dist apt configs don't handle well
+!/var/lib/apt/lists/partial/
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release VarFile
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release.gpg VarFile
 
+/var/cache/man/opt/index\.db$ VarFile
 /var/cache/man/.*/cat[13578]$ VarFile
 
-/var/cache/apt-xapian-index/index.1 VarDir
-/var/cache/apt-xapian-index/index.1/.* VarFile
+/var/cache/apt-xapian-index VarDir
+/var/cache/apt-xapian-index/.* VarFile
 
 /var/lib/texmf VarDir
 /var/lib/texmf/ls-R VarFile
+
+/var/lib/nagios3/rw$ VarDir
+/var/lib/nagios3/rw/nagios\.cmd$ VarFile
+
+/var/lib/sudo$ VarDir
 
 # Ignore all known files and dirs in /var/log
 !/var/log/acpid[.-][0-9]+\.gz$
@@ -40,7 +48,9 @@
 !/var/log/btmp$
 !/var/log/btmp[.-][0-9]+$
 !/var/log/cacti$
+!/var/log/cacti/cacti\.log$
 !/var/log/cacti/cacti\.log[.-][0-9]+\.gz$
+!/var/log/cacti/poller-error\.log$
 !/var/log/cacti/poller-error\.log[.-][0-9]+\.gz$
 !/var/log/ConsoleKit$
 !/var/log/ConsoleKit/history\.[0-9]\.gz$
