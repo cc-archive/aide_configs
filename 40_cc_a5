@@ -26,4 +26,7 @@
 # Misc.
 !/var/www/creativecommons\.org/www/images
 !/var/www/creativecommons\.org/www/wp-content/uploads
+!/var/www/creativecommons\.org/www/wp-conent/themes/cc6/\.svn
+!/var/www/creativecommons\.org/www/wp-conent/themes/cc6/images/\.svn
+!/var/www/creativecommons\.org/www/wp-conent/themes/cc6/licenses/\.svn
 

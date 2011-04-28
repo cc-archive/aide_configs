@@ -38,6 +38,8 @@
 !/tmp/cc_wiki
 !/tmp/rdfa_wiki
 !/tmp/.*\.varnish
+!/tmp/mwdebug\.log
+!/tmp/rewrite\.log
 
 # Misc.
 !/var/www/teamspace\.creativecommons\.org/www/images
@@ -49,3 +51,7 @@
 !/var/www/code\.creativecommons\.org/issues/db/files
 !/var/lib/hudson/plugins/
 !/var/lib/hudson/jobs/
+!/var/www/staging\.creativecommons\.org/www/wp-content/themes/\.svn
+!/var/www/staging\.creativecommons\.org/www/wp-content/themes/cc6/\.svn
+!/var/www/staging\.creativecommons\.org/www/wp-content/themes/cc6/images/\.svn
+!/var/www/staging\.creativecommons\.org/www/wp-content/themes/cc6/licenses/\.svn
