@@ -12,8 +12,7 @@
 /var/cache/man/opt/index\.db$ VarFile
 /var/cache/man/.*/cat[13578]$ VarFile
 
-/var/cache/apt-xapian-index VarDir
-/var/cache/apt-xapian-index/.* VarFile
+!/var/cache/apt-xapian-index 
 
 /var/lib/texmf VarDir
 /var/lib/texmf/ls-R VarFile
