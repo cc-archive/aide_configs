@@ -16,6 +16,8 @@
 !/tmp/rdfa_wiki
 !/tmp/.*\.varnish
 !/tmp/tmp
+!/tmp/hsperfdata_jenkins
+!/tmp/_rdf_dump
 
 # Misc.
 !/var/www/code\.creativecommons\.org/www/basket
@@ -23,3 +25,7 @@
 !/var/www/code\.creativecommons\.org/issues/db/text-index
 !/var/lib/jenkins
 !/var/run/jenkins
+!/var/log/jenkins
+!/var/log/roundup
+
+!/var/www/acawiki\.org/www/extensions/Widgets/compiled_templates

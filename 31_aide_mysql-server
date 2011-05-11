@@ -1,5 +1,6 @@
 /var/lib/mysql$ VarDir
 /var/lib/mysql/(ibdata1|ib_logfile0)$ VarFile
+/var/lib/mysql/ib_logfile[0-9]+$ VarFile
 /var/log/mysql$ VarDir
 /var/log/mysql/mysql-slow\.log-* VarFile
 /var/log/mysql/mysql.log-* VarFile
