@@ -6,6 +6,7 @@
 !/var/log/apache2/other_vhosts_error.log
 
 !/var/run/apache2/wsgi\.
+!/var/run/apache2/cgisock\.
 
 /var/lib/apache2/fcgid$ VarDir
 /var/lib/apache2/fcgid/shm$ VarFile
