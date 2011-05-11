@@ -9,3 +9,8 @@
 !/home/nkinkade/tmp
 !/home/cronuser/csv-dumps/
 !/home/cronuser/stats/
+
+/var/lib/tor VarDir
+!/var/lib/tor/cached-consensus
+!/var/lib/tor/cached-descriptors
+!/var/lib/tor/cached-descriptors.new

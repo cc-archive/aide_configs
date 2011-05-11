@@ -7,12 +7,18 @@
 # Some apt stuff that the dist apt configs don't handle well
 !/var/lib/apt/lists/partial/
 /var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release VarFile
-/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release.gpg VarFile
+/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_squeeze_Release\.gpg VarFile
+/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lucid_Release VarFile
+/var/lib/apt/lists/repo.varnish-cache.org_debian_dists_lucid_Release\.gpg VarFile
+/var/lib/apt/periodic/update-success-stamp VarFile
+/var/lib/apt/periodic/update-stamp VarFile
+!/var/cache/apt-xapian-index 
+
+/var/lib/update-notifier/release-upgrade-available VarFile
+/var/lib/update-notifier/updates-available VarFile
 
 /var/cache/man/opt/index\.db$ VarFile
 /var/cache/man/.*/cat[13578]$ VarFile
-
-!/var/cache/apt-xapian-index 
 
 /var/lib/texmf VarDir
 /var/lib/texmf/ls-R VarFile
@@ -20,7 +26,11 @@
 /var/lib/nagios3/rw$ VarDir
 /var/lib/nagios3/rw/nagios\.cmd$ VarFile
 
-/var/lib/sudo$ VarDir
+# Cut fat from /var/run
+!/var/run/sudo
+!/var/run/tor
+!/var/run/console
+!/var/run/ConsoleKit
 
 # Ignore all known files and dirs in /var/log
 !/var/log/acpid[.-][0-9]+\.gz$
@@ -52,6 +62,7 @@
 !/var/log/cacti/poller-error\.log$
 !/var/log/cacti/poller-error\.log[.-][0-9]+\.gz$
 !/var/log/ConsoleKit$
+!/var/log/ConsoleKit/history$
 !/var/log/ConsoleKit/history\.[0-9]\.gz$
 !/var/log/couchdb$
 !/var/log/couchdb/couch\.log[.-][0-9]+\.gz$
@@ -96,6 +107,8 @@
 !/var/log/messages[.-][0-9]+$
 !/var/log/messages[.-][0-9]+\.gz$
 !/var/log/mysql$
+!/var/log/mysql/error\.log$
+!/var/log/mysql/error\.log-old$
 !/var/log/mysql\.err$
 !/var/log/mysql\.log$
 !/var/log/mysql\.log[.-][0-9]+\.gz$
@@ -104,6 +117,7 @@
 !/var/log/nagios3$
 !/var/log/news$
 !/var/log/polipo$
+!/var/log/polipo/polipo\.log$
 !/var/log/polipo/polipo\.log[.-][0-9]+\.gz$
 !/var/log/pycentral\.log$
 !/var/log/samba$
@@ -112,6 +126,7 @@
 !/var/log/syslog[.-][0-9]+\.gz$
 !/var/log/tor$
 !/var/log/tor/log$
+!/var/log/tor/log[.-][0-9]+$
 !/var/log/tor/log[.-][0-9]+\.gz$
 !/var/log/user\.log$
 !/var/log/user\.log[.-][0-9]+$
