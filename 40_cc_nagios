@@ -1,6 +1,0 @@
-#
-# Configs specific to nagios.creativecommons.org
-#
-
-# Misc.
-!/etc/nagios3/conf.d/.svn
