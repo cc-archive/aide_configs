@@ -1,8 +1,9 @@
+!/etc/.etckeeper
 !/etc/.git
 !/etc/aide/aide/conf.local.d/.git
 !/etc/nagios3/conf.d/.svn
 !/home/.*
 !/root/nightly_mysqldumps
 !/media/storage
-!/tmp/.*
+!/tmp
 !/var/.*
