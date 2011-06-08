@@ -1,8 +1,10 @@
+!/dev
 !/etc/\.etckeeper
 !/etc/\.git
 !/etc/aide/aide\.conf\.local\.d/\.git
 !/etc/nagios3/conf\.d/\.svn
 !/home/.*
+!/lib/init/rw
 !/media/storage
 !/root/nightly_mysqldumps
 !/root/\.
