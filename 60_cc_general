@@ -2,6 +2,7 @@
 !/etc/\.etckeeper
 !/etc/\.git
 !/etc/aide/aide\.conf\.local\.d/\.git
+!/etc/ld\.so\.cache
 !/etc/nagios3/conf\.d/\.svn
 !/home/.*
 !/lib/init/rw
