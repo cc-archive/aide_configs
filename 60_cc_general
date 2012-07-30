@@ -7,6 +7,7 @@
 !/home/.*
 !/lib/init/rw
 !/media/storage
+!/root/aide_sigs
 !/root/nightly_mysqldumps
 /root VarDir
 !/root/\.
