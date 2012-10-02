@@ -11,5 +11,6 @@
 !/root/nightly_mysqldumps
 /root VarDir
 !/root/\.
+!/run
 !/tmp
 !/var/.*
